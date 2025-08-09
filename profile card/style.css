@@ -1,0 +1,46 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+    display: inline-flexbox;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.profile-card{
+    background-color: rgb(63, 15, 15)
+    width: 150%;
+    padding: 15px 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
+}
+.profile-img{
+    background-color: aqua;
+    border-radius: 950%
+}
+h2{
+    margin: 10px 0 5px;
+}
+.title{
+    color: blue;
+    font-size: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    -ms-line-break: strict;
+}
+button{
+    background-color: bisque;
+    color: black;
+    padding: 10px 16px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1px;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: blue;
+}
+.p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
