@@ -1,45 +1,39 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: bisque;
-    display: inline-flexbox;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
 }
 .profile-card{
-    background-color: rgb(63, 15, 15)
-    width: 150%;
-    padding: 15px 20px;
+    background-color: beige;
+    max-width: 300px;
+    margin: auto;
     border-radius: 12px;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(red, green, blue, alpha);
+    box-sizing: border-box; 
+    box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.3)
 }
 .profile-img{
     background-color: aqua;
     border-radius: 950%
 }
 h2{
-    margin: 10px 0 5px;
+    margin: 10px;
 }
 .title{
     color: blue;
     font-size: 20px;
     margin-bottom: 20px;
-    border-radius: 50%;
-    -ms-line-break: strict;
 }
 button{
-    background-color: bisque;
-    color: black;
+    background-color: blue;
+    color: white;
     padding: 10px 16px;
-    border-radius: 10px;
     text-align: center;
     cursor: pointer;
-    margin-top: 1px;
+    margin-top: 8px;
     transition: 0.3s;
+    width: 100%;
 }
 button:hover{
-    background-color: blue;
+    opacity: 0.6;
 }
 .p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
