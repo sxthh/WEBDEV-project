@@ -1,0 +1,63 @@
+body{
+    display: flex;
+}
+.image{
+    max-width: 60%;
+
+}
+.image > img{
+    width: 100%;
+}
+.content{
+    max-width: 40%;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(42, 116, 91);
+    font-size: 20px;
+    margin-bottom: 20px
+    
+}
+form{
+    text-align: center;
+    width: 100%;
+}
+.rem{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+input{
+    width: 80%;
+    border-top: 5px;
+    border-left: 5px;
+    border-right: 5px;
+    font-size: 15px;
+    color: rgb(43, 112, 89);
+    margin-bottom: 20px
+}
+input[type="checkbox"]{
+    accent-color: #F3C404 ;
+    float: inherit;
+}
+button{
+    padding: 10px 70px ;
+    border-radius: 1px;
+    border: none;
+    color: white;
+    margin-top: 27px;
+    border: none;
+    background-color: #F3C404
+
+}
+.emphasis{
+    font-style: italic;
+    text-decoration: underline;
+    position: sticky;
+    float: initial;
+    
+}
+
